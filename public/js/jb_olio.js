@@ -1,36 +1,8 @@
 var jb_olio = [
-		{
-		featured: 'rails_demo/rails_demo_thumb.jpg',
-		title: 'Ruby On Rails Microblog',
-		description: '<strong>ROLE: </strong>Interaction Designer, Conceptor</br> <strong>ASK: </strong>PUMA wanted to make their customization business to be social in nature. We took social shopping and PUMA-fied it. These documents were designed to communicate the concept at a casual level.  ',
-		filters: ['web','app'],
-		more: [
-			'rails_demo/Slide3.jpg',
-			'rails_demo/Slide5.jpg'
-	
-		]
-
-	},
-
-	{
-		featured: 'frpf/frpf_thumb.jpg',
-		title: 'Front Range Powder Factory',
-		description: '<strong>ROLE:</strong> Interaction Design, Concepting </BR><strong>THE ASK:</strong> How to create a quick fix web presence to the PUMA IPad app, only found in retail stores. We used the data collected from the app to vizualize info from each store. Featured stores slide into focus based on where the hero shoe was designed.',
-		filters: ['service', 'vida'],
-		more: [
-			'frpf/calendar.2012.small.jpg',
-			'frpf/hut.group.2005.jpg',
-			'frpf/frpf_story.jpg'
-		]
-
-	},
-
-
-
 	{
 		featured: 'jpl_nustar/nus_thumb.jpg',
 		title: 'NuSTAR',
-		description: '<strong>ROLE:</strong> Interaction Design, Architecture </BR><strong>THE ASK:</strong> PUMAs customization experience required its own Ecommerce and fulfillment organization. We architected it, not without a plethera of documentation.',
+		description: '<strong>ROLE:</strong> Flight Systems Engineer </BR><strong>DESCRIPTION:</strong> Flight Systems Engineer during design, build, test and operations of an X-ray Telescope. Quasi-resident at Spacecraft contractor in Washington DC for 3.5 years.  Lead engineer for mission critical event, mast deployment - a 30 foot boom deployed on orbit to achieve the telescope\'s focal length. <a href="http://www.nustar.caltech.edu/">NuSTAR website</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_nustar/nus_1.jpg',
@@ -40,21 +12,9 @@ var jb_olio = [
 
 	},
 	{
-		featured: 'ressignol/thumb.jpg',
-		title: 'Ressignol',
-		description: '<strong>ROLE:</strong> Visual Design, Concepting </BR><strong>THE ASK:</strong> Rebrand a company. I chose Rossignol, an older-school ski company that needed some new-school flavor. I embedded an experience in the site where Users can upload Xray photos of their gnarly falls.',
-		filters: ['flight', 'web', 'school'],
-		more: [
-			'ressignol/rossy.jpg',
-			'ressignol/love.jpg',
-			'ressignol/ecomm.jpg'
-		]
-
-	},
-	{
 		featured: 'jpl_phx/phx_thumb1.jpg',
-		title: 'Phoenix',
-		description: '<strong>ROLE:</strong> Visual Design, Concepting </BR><strong>THE ASK:</strong> Rebrand a company. I chose Rossignol, an older-school ski company that needed some new-school flavor. I embedded an experience in the site where Users can upload Xray photos of their gnarly falls.',
+		title: 'Phoenix Mars Lander',
+		description: '<strong>ROLE:</strong> Systems Engineer </BR><strong>DESCRIPTION:</strong> Surface systems team, etc, etc, etc.',
 		filters: ['flight'],
 		more: [
 			'jpl_phx/phx_1.jpg',
@@ -64,6 +24,72 @@ var jb_olio = [
 		]
 
 	},
+	{
+		featured: 'jpl_mer/mer_thumb1.jpg',
+		title: 'Mars Exploration Rovers',
+		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. -->  Managed daily operations. <a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
+		filters: ['flight'],
+		more: [
+			'jpl_mer/under-construction.jpg'
+
+		]
+
+	},
+	{
+		featured: 'rails_demo/rails_demo_thumb.jpg',
+		title: 'Ruby On Rails Microblog',
+		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> My first Ruby on Rails project from the Ruby on Rails Tutorial & Sample App. Emphasis of the project is not UI, but learning the RoR fundamentals - most of which are transparent to the common site visitor.<BR><strong>WEBSITE:</strong> <a href="http://blooming-mountain-199.heroku.com/">http://blooming-mountain-199.heroku.com/</a>',
+		filters: ['web','app'],
+		more: [
+			'rails_demo/Slide1.jpg',
+			'rails_demo/Slide2.jpg'
+	
+		]
+
+	},
+	{
+		featured: 'jpl_mer/under-construction-300x200.png',
+		title: 'AutoWin',
+		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> Learned perl and automated a 2FTE job into 4hrs a week task.  Code used to aid scheduling and building flight products for over 7 years.',
+		filters: ['web','app'],
+		more: [
+			'jpl_mer/under-construction.jpg'	
+		]
+
+	},
+	{
+		featured: 'jpl_mer/under-construction-300x200.png',
+		title: 'Fantasy Football',
+		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.',
+		filters: ['web','app'],
+		more: [
+			'jpl_mer/under-construction.jpg'	
+		]
+
+	},
+	{
+		featured: 'jpl_mer/under-construction-300x200.png',
+		title: 'MusicBachs',
+		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
+		filters: ['web','app'],
+		more: [
+			'jpl_mer/under-construction.jpg'	
+		]
+
+	},
+	{
+		featured: 'frpf/frpf_thumb.jpg',
+		title: 'Front Range Powder Factory',
+		description: '<strong>ROLE:</strong> Co-Founder & Board Member </BR><strong>DESCRIPTION:</strong> fill this in later<BR><strong>WEBSITE:</strong> <a href="http://www.powderfactory.com/">http://www.powderfactory.com/</a> and on <a href="http://www.facebook.com/powderfactory">Facebook</a>',
+		filters: ['service', 'vida'],
+		more: [
+			'frpf/calendar.2012.small.jpg',
+			'frpf/hut.group.2005.jpg',
+			'frpf/frpf_story.jpg'
+		]
+
+	},
+
 
 
 ];
