@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+    <title>Byron Jones / bBallard</title>
+    <link rel="shortcut icon" href="img/flav.ico" >
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-eqfuiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<!-- css -->
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link href=”http://kernest.com/fonts/justus-italic.css” media=”screen” rel=”stylesheet” type=”text/css” />
+	
+
+	
+	<style type="text/css">
+	.proj_block_over{
+		display: block;
+		position: absolute;
+		left: 10px;
+		top: 1px;
+		width: 300px;
+		height: 200px;
+	}
+
+	.proj_close{
+		background-image:url(img/close.png);
+		width: 20px;
+		height: 20px;
+		float: right;
+		margin-top: -36px;
+		cursor: pointer;
+		background-repeat: no-repeat;
+		
+	}
+
+	.proj_large{
+		clear: both;
+		}
+
+	.proj_media{
+		width: 940px;
+		height: 550px;
+		margin: 0px auto 0px auto;
+		padding: 0px;
+		cursor: pointer;;
+	}
+	
+	.proj_detail{
+		width: 940px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+	.proj_detail H1{
+	font-family: "HelveticaNeue-Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #4f4f4f; font-weight: bold; font-size:14px;
+	letter-spacing: -5;
+	margin-top: 13px;
+	
+	}
+	
+	.proj_detail H5{
+	border-color: #4f4f4f;
+	color: #4f4f4f;
+	
+	}
+	
+	.proj_detail p{
+		padding-bottom: 16px;
+		border-bottom: 1px dotted;
+	
+	}
+
+	.proj_nav{
+		margin-top: 9px;
+		float: right;
+	}
+	
+	.proj_nav span.proj_nav_current{
+		background-image: url(img/active_nav.png);
+	
+	}
+
+	.proj_nav span{
+		background-image: url(img/next.png);
+		background-repeat: no-repeat;
+		text-indent: -9999px;
+		cursor: pointer;
+		width: 13px;
+		height: 14px;
+		padding-right: 15px;
+		
+	}
+	.grid_12 p {
+		text-align: center;
+		padding-top: 45px;
+		}
+		
+	
+	</style>
+	<!-- js -->
+	<script type="text/javascript" src="js/jb_olio.js"></script>
+	<script type="text/javascript" src="js/jquery-1.6.2.js"></script>
+	<script type="text/javascript" src="js/backbone/underscore.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="js/jquery.localscroll.js"></script>
+	<script type="text/javascript">
+
+		    jQuery(function( $ ){
+				$.localScroll({
+				lazy: true,
+				duration: 600
+							
+				});
+	     	    });
+
+		    $(window).load(function(){
+
+
+		    	var $container = $('#container');
+		      	$container.isotope({
+				itemSelector : '.element'
+		      	});
+
+		    // filter buttons
+		    $('#filters a').click(function(){
+		      $('.proj_detail').fadeOut();
+		      var selector = $(this).attr('data-filter');
+		      $container.isotope({ filter: selector });
+		      return false;
+		    });
+
+
+		    /* get information on every portfolio object
+		       and render it onto the grid */
+		    proj_setup = "";
+		    proj_block_t  = _.template( $('#proj_block_t').html() );
+		    var i=0;
+		    $.each( jb_olio , function( key,e ){
+			var proj_instance = proj_block_t({
+			  pid: i,
+			  thumb: 'img/jb_olio/'+e.featured,
+			  title: e.title,
+			  description: e.description,
+			  filters: e.filters.join(" ")
+			});
+			proj_setup += proj_instance;
+
+			// satisfy 3 columns per row condition
+
+			if( i==jb_olio.length-1 ) {
+		    		$container.isotope('insert', $(proj_setup) );
+			}
+
+			i++;
+
+		    });
+
+
+		    /* close the featured project panel */
+		    $('.proj_close').live('click', function(){
+			$('.proj_detail')
+				.fadeOut()
+				.html('');
+		    });
+
+		    /* Show/hide transparent image overlay
+		       over each project block */
+		    $('.proj_block').live('hover',function(){
+		    	$('<img src="img/img_overlay.png" class="proj_block_over"/>')
+				.appendTo($(this))
+				.hide()
+				.fadeIn("fast");
+		    });
+		    $('.proj_block').live('mouseleave',function(){
+		    	$('.proj_block_over')
+				.fadeOut("fast")
+				.remove();
+		    });
+
+		    /* get information from portfolio object
+		       on every click of a project block */
+		    $('.proj_block').live('click',function(){
+			var pid = $(this).attr('id').split('_')[1];
+			var ptitle = jb_olio[pid]['title'];
+			var pdesc = jb_olio[pid]['description'];
+			var pmore = jb_olio[pid]['more'];
+			 
+			
+			$('.proj_detail').html('');
+			$('.proj_detail').append('<h5>'+ptitle+'</h5>');	
+			$('.proj_detail').append('<a href="#top" class="proj_close"></a>');	
+			$('.proj_detail').append('<div class="proj_large"><div class="proj_media"/></div>');	
+			
+				var proj_nav = "";
+			$.each( pmore , function(i,e){
+				proj_nav += '<span data-img="'+e+'" id="proj_nav_'+i+'"></span>\n';
+			});
+			$('.proj_detail').append('<div class="proj_nav">'+proj_nav+'</div>');	
+			
+			$('.proj_detail').append('<h1>'+ptitle+'</h1><p>'+pdesc+'</p>');	
+
+		
+			$('#proj_nav_0').click(); // select the first from the image nav menu
+			$('.proj_detail').fadeIn();
+		    });
+
+
+
+		    /* activate the callbacks for proj block nav */
+		    $('.proj_nav span').live('click',function(){
+			$('.proj_nav_current').removeClass('proj_nav_current');
+			$(this).addClass('proj_nav_current');
+			var proj_img = $(this).attr('data-img');
+			$('.proj_large div.proj_media')
+				.fadeOut(400,function(){
+					$(this).css('background','url(img/jb_olio/'+proj_img+') no-repeat 50% 50%')
+})
+				.fadeIn();
+		    });
+		    
+		    $('.proj_media').live('click',function(){
+			if($('.proj_nav_current').next().length == 0) {
+				$('#proj_nav_0').click(); // select the first from the image nav menu
+			}else{
+				$('.proj_nav_current').next().click();
+			}
+		    });
+		    
+		      // switches selected class on buttons
+		      $('#options').find('.option-set a').click(function(){
+			var $this = $(this);
+
+			// don't proceed if already selected
+			if ( !$this.hasClass('selected') ) {
+			  $this.parents('.option-set').find('.selected').removeClass('selected');
+			  $this.addClass('selected');
+			}
+
+		      });
+
+
+
+		      
+		    });
+	</script>
+</head>
+<body>  
+	<a id="top" name="top"></a>
+	<div id="topmenu">
+				<ul>
+					<li><a href="http://stackoverflow.com/users/747843/" target="_blank">stackoverflow</a></li>
+					<li><a href="https://github.com/jonesbb" target="_blank">github</a></li>
+					<li><a href="http://www.facebook.com/" target="_blank">Facebook</a></li>
+					<li><a href="https://twitter.com/#!/byro" target="_blank">Twitter</a></li>
+				</ul>
+			  
+              </div>
+            <div id="main">
+		<div id="head">
+			<div id="logo"><a href="index.html" title=""><img src="img/bj_logo1.png" alt="" /></a></div>
+			<!-- /logo -->
+			<!-- /topmenu -->
+			
+            <div id="mainmenu">
+			  <ul>
+			    <li>
+			      <h5> Work</h5>
+			      <section id="options" class="clearfix">
+			        <ul id="filters" class="option-set floated clearfix">
+			          <li><a href="#filter" data-filter="*" class="selected">show all</a></li>
+			          <li><a href="#filter" data-filter=".flight">flight projects</a></li>
+			          <li><a href="#filter" data-filter=".app">app</a></li>
+                      <li><a href="#filter" data-filter=".service">non-profit</a></li>
+		            </ul>
+		          </section>
+			      <!-- /submenu -->
+		        </li>
+		      </ul>
+		  </div>
+	<a id="jb_home" name="jb_home"></a>
+
+			<!-- /mainmenu -->
+</div>
+		<!-- /head -->
+
+	<!-- Populated with slideshow of work -->
+	<div class="container_12 proj_detail">
+	</div>
+
+	<div class="clear"></div>
+
+	  <div id="container" class="portfolio V container_12 clearfix">
+	  </div>
+		<!-- /content -->
+
+	</div>
+	<!-- /main -->
+
+	<div id="foot" class="container_12">
+
+		<div class="grid_4">
+ 			<h2>BROOKLYN LIVING</h2>
+		<iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=75a+5th+ave.+brooklyn,+ny&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=40.137381,79.013672&amp;vpsrc=6&amp;ie=UTF8&amp;hq=&amp;hnear=75A+5th+Ave,+Brooklyn,+Kings,+New+York+11217&amp;ll=40.678881,-73.976698&amp;spn=0.013018,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe></div>
+		<!-- /one third -->
+		<div class="grid_4">
+			<h2>NuSTAR Live</h2>
+			<p>Live Webcam of NuSTAR satellite at Vandenberg Airforce Base.</p>
+			<!---<applet codebase="http://countdown.ksc.nasa.gov/elv/"--->
+			<applet codebase="http://science.ksc.nasa.gov/software/java/javacam/"
+			 code="JavaCam.class" width="240" height="163"><br>
+			   <param name="interval" value="30"><br>
+			   <param name="url" value="http://science.ksc.nasa.gov/shuttle/countdown/video/vafb1.jpg">
+			</applet>
+		</div>
+
+			<!-- /one third -->
+		<div class="grid_4">
+			<h2>
+				HOLLER</h2>
+			<!-- at contact.php you can setup the submit response -->
+			<form action="contact.php" method="post" id="foot-contact">
+			<fieldset>
+				<p>
+					Please fill the box below (it will keep growing) and don’t forget to add your contact
+					Email:
+				</p>
+				<p>
+					<label class="textarea">
+						<textarea name="message" id="foot-message" rows="5" cols="40"></textarea>
+					</label>
+				</p>
+				<p>
+					<!-- at custom.js you can setup the error response -->
+					<span class="error"> </span>
+					<input name="send" type="submit" value="Send" />
+				</p>
+			</fieldset>
+			</form>
+		</div>
+		<!-- /one third -->
+		
+		<!-- /1st foot row -->
+		<!-- Holla JBerg! -->
+		<div class="grid_12">
+			<p>Copyright Byron Jones 2012</p>
+	</div>
+
+					</div>
+		<!-- /2nd foot row -->
+	
+	<script id="proj_block_t" type="text/template">
+			<div class="element <%= filters %> grid_4 entry">
+				<a id="proj_<%= pid %>" class="proj_block" href="#jb_home" title="Read more <%= pid %> &hellip;">
+					<img src="<%= thumb %>" alt="" />
+					<strong><%= title %></strong>
+				</a>
+					<br />
+				<span class="proj_description"><%= description %></span>
+			</div>
+			<!-- /entry -->
+	</script>
+
+  <script src="js/jquery-1.5.1.min.js"></script>
+  <script src="jquery.isotope.min.js"></script>
+  
+
+
+
+	<!-- /foot -->
+</body>
+</html>
