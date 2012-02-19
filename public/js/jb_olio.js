@@ -1,10 +1,11 @@
 var jb_olio = [
 	{
-		featured: 'jpl_nustar/nus_thumb.jpg',
-		title: 'NuSTAR',
+		featured: 'jpl_nustar/nustar_thumb.jpg',
+		title: 'NuSTAR X-Ray Telescope',
 		description: '<strong>ROLE:</strong> Flight Systems Engineer </BR><strong>DESCRIPTION:</strong> Flight Systems Engineer during design, build, test and operations of an X-ray Telescope. Quasi-resident at Spacecraft contractor in Washington DC for 3.5 years.  Lead engineer for mission critical event, mast deployment - a 30 foot boom deployed on orbit to achieve the telescope\'s focal length. <a href="http://www.nustar.caltech.edu/">NuSTAR website</a>',
 		filters: ['flight'],
 		more: [
+			'jpl_nustar/nustar_orbit1.jpg',
 			'jpl_nustar/nus_1.jpg',
 			'jpl_nustar/nus_2.jpg',
 			'jpl_nustar/nus_3.jpg'
@@ -12,7 +13,7 @@ var jb_olio = [
 
 	},
 	{
-		featured: 'jpl_phx/phx_thumb1.jpg',
+		featured: 'jpl_phx/phx_thumb2.jpg',
 		title: 'Phoenix Mars Lander',
 		description: '<strong>ROLE:</strong> Systems Engineer </BR><strong>DESCRIPTION:</strong> Surface systems team, etc, etc, etc.',
 		filters: ['flight'],
@@ -48,12 +49,30 @@ var jb_olio = [
 
 	},
 	{
-		featured: 'jpl_mer/under-construction-300x200.png',
+		featured: 'vida/misc_surf_thumb1.jpg',
+		title: 'Outdoors',
+		description: '<strong>DESCRIPTION:</strong>Surfing, Skiing, Biking, Golf, Marathons, Backpacking',
+		filters: ['vida'],
+		more: [
+			'vida/mexico_surf.jpg',	
+			'vida/mt_whitney.jpg',	
+			'vida/ptDume_climbing.jpg',	
+			'vida/skiing1.jpg',	
+			'vida/rafting.jpg',	
+			'vida/surfboard.jpg'	
+		]
+
+	},
+	{
+		featured: 'autowin/autowin_thumb.jpg',
 		title: 'AutoWin',
-		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> Learned perl and automated a 2FTE job into 4hrs a week task.  Code used to aid scheduling and building flight products for over 7 years.',
+		description: '<strong>ROLE: </strong>Mission Planning Team Lead</br> <strong>DESCRIPTION: </strong> Learned perl and automated a 2FTE job into 4hrs a week task.  Code used to aid scheduling and building flight products for over 7 years.',
 		filters: ['web','app'],
 		more: [
-			'jpl_mer/under-construction.jpg'	
+			'autowin/Slide10.jpg',	
+			'autowin/Slide11.jpg',	
+			'autowin/autowin_gui.jpg',	
+			'autowin/rover_detail.jpg'	
 		]
 
 	},
@@ -68,12 +87,14 @@ var jb_olio = [
 
 	},
 	{
-		featured: 'jpl_mer/under-construction-300x200.png',
+		featured: 'musicbachs/musicbachs_thumb.jpg',
 		title: 'MusicBachs',
 		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
 		filters: ['web','app'],
 		more: [
-			'jpl_mer/under-construction.jpg'	
+			'musicbachs/Slide05.jpg',	
+			'musicbachs/Slide06.jpg',	
+			'musicbachs/Slide07.jpg'	
 		]
 
 	},

@@ -1,8 +1,8 @@
 <?php
 
 	//****************************************************
-	$your_site_name = "Byron Jones | bBallard"; // please change!
-	$your_email = "jonesbb@gmail.com"; // please change!
+	$your_site_name = "#"; // please change!
+	$your_email = "#"; // please change!
 	//****************************************************
 
 	// post vars
