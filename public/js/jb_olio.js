@@ -6,16 +6,19 @@ var jb_olio = [
 		filters: ['flight'],
 		more: [
 			'jpl_nustar/nustar_orbit1.jpg',
-			'jpl_nustar/nus_1.jpg',
+			'jpl_nustar/nustar_mockup.jpg',
 			'jpl_nustar/nus_2.jpg',
-			'jpl_nustar/nus_3.jpg'
+			'jpl_nustar/nustar_instTvac.jpg',
+			'jpl_nustar/nustar_inspection.jpg',
+			'jpl_nustar/nus_3.jpg',
+			'jpl_nustar/nus_1.jpg'
 		]
 
 	},
 	{
 		featured: 'jpl_phx/phx_thumb2.jpg',
 		title: 'Phoenix Mars Lander',
-		description: '<strong>ROLE:</strong> Systems Engineer </BR><strong>DESCRIPTION:</strong> Surface systems team, etc, etc, etc.',
+		description: '<strong>ROLE:</strong> Systems Engineer </BR><strong>DESCRIPTION:</strong> Surface systems team, etc, etc, etc. My <a href="http://phoenixintucson.blogspot.com/">personal account of working surface operations and living o Mars time.</a><BR><strong>WEBSITE:</strong><a href="http://phoenix.lpl.arizona.edu/index.php">http://phoenix.lpl.arizona.edu/index.php</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_phx/phx_1.jpg',
@@ -28,7 +31,7 @@ var jb_olio = [
 	{
 		featured: 'jpl_mer/mer_thumb1.jpg',
 		title: 'Mars Exploration Rovers',
-		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. -->  Managed daily operations. <a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
+		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. -->  Managed daily operations. <BR><strong>WEBSITE:</strong><a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_mer/under-construction.jpg'
@@ -110,7 +113,16 @@ var jb_olio = [
 		]
 
 	},
+	{
+		featured: 'lab/cassini_thumb.jpg',
+		title: 'Around The Lab',
+		description: '<strong>DESCRIPTION:</strong> fill this in later',
+		filters: ['flight', 'vida'],
+		more: [
+			'lab/msl_lasertag.jpg'
+		]
 
+	},
 
 
 ];
