@@ -113,16 +113,6 @@ var jb_olio = [
 		]
 
 	},
-	{
-		featured: 'lab/cassini_thumb.jpg',
-		title: 'Around The Lab',
-		description: '<strong>DESCRIPTION:</strong> fill this in later',
-		filters: ['flight', 'vida'],
-		more: [
-			'lab/msl_lasertag.jpg'
-		]
-
-	},
 
 
 ];
