@@ -51,18 +51,15 @@ var jb_olio = [
 		]
 
 	},
-	{
-		featured: 'vida/misc_surf_thumb1.jpg',
-		title: 'Outdoors',
-		description: '<strong>DESCRIPTION:</strong>Surfing, Skiing, Biking, Golf, Marathons, Backpacking',
-		filters: ['vida'],
+		{
+		featured: 'musicbachs/musicbachs_thumb.jpg',
+		title: 'MusicBachs',
+		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
+		filters: ['web','app'],
 		more: [
-			'vida/mexico_surf.jpg',	
-			'vida/mt_whitney.jpg',	
-			'vida/ptDume_climbing.jpg',	
-			'vida/skiing1.jpg',	
-			'vida/rafting.jpg',	
-			'vida/surfboard.jpg'	
+			'musicbachs/Slide05.jpg',	
+			'musicbachs/Slide06.jpg',	
+			'musicbachs/Slide07.jpg'	
 		]
 
 	},
@@ -77,27 +74,32 @@ var jb_olio = [
 			'autowin/autowin_gui.jpg',	
 			'autowin/rover_detail.jpg'	
 		]
-
 	},
 	{
-		featured: 'jpl_mer/under-construction-300x200.png',
-		title: 'Fantasy Football',
-		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.',
-		filters: ['web','app'],
+		featured: 'vida/misc_surf_thumb1.jpg',
+		title: 'Water',
+		description: '<strong>DESCRIPTION:</strong>Surfing, Fishing, Rafting',
+		filters: ['vida'],
 		more: [
-			'jpl_mer/under-construction.jpg'	
+			'vida/mexico_surf.jpg',	
+			'vida/leisure_dive.jpg',	
+			'vida/rafting.jpg',	
+			'vida/ut_fishing1.jpg',	
+			'vida/surfboard.jpg'	
 		]
-
 	},
 	{
-		featured: 'musicbachs/musicbachs_thumb.jpg',
-		title: 'MusicBachs',
-		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
-		filters: ['web','app'],
+		featured: 'vida/mtn_thumb.jpg',
+		title: 'Land',
+		description: '<strong>DESCRIPTION:</strong>Skiing, Biking, Golf, Running, Backpacking',
+		filters: ['vida'],
 		more: [
-			'musicbachs/Slide05.jpg',	
-			'musicbachs/Slide06.jpg',	
-			'musicbachs/Slide07.jpg'	
+			'vida/mt_whitney.jpg',	
+			'vida/nyc_race_for_cure.jpg',	
+			'vida/ptDume_climbing.jpg',	
+			'vida/boys_golf_az.jpg',	
+			'vida/skiing1.jpg',	
+			'vida/skiing2.jpg'	
 		]
 
 	},
@@ -113,6 +115,32 @@ var jb_olio = [
 		]
 
 	},
+	{
+		featured: 'jpl_mer/under-construction-300x200.png',
+		title: 'MOG - Music on Demand',
+		description: '<strong>ROLE:</strong> Consultant </BR><strong>DESCRIPTION:</strong> fill this in later<BR><strong>WEBSITE:</strong> <a href="#">#</a>',
+		filters: ['app'],
+		more: [
+			'jpl_mer/under-construction.jpg'	
+		]
+	},	
+	{
+		featured: 'jpl_mer/under-construction-300x200.png',
+		title: 'Fantasy Football',
+		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.',
+		filters: ['web','app'],
+		more: [
+			'jpl_mer/under-construction.jpg'	
+		]
+	},
+	{
+		featured: 'jpl_mer/coming_soon_thumb.png',
+		title: 'Playlist Generator',
+		description: '<strong>ROLE:</strong> Hacker </BR><strong>DESCRIPTION:</strong> <i>In work.  Creating an app using Echos Nest and Spotify API.  End result will be an app to generate playlists based on mood.<BR><strong>WEBSITE:</strong> <a href="#">in work</a></i>',
+		filters: ['app'],
+		more: [
+			'jpl_mer/under-construction.jpg'	
+		]
 
-
+	},
 ];
