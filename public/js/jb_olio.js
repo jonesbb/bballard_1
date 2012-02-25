@@ -1,12 +1,11 @@
 var jb_olio = [
 	{
-		featured: 'jpl_nustar/nustar_thumb.jpg',
+		featured: 'jpl_nustar/nustar_orbit_thumb.jpg',
 		title: 'NuSTAR X-Ray Telescope',
-		description: '<strong>ROLE:</strong> Flight Systems Engineer </BR><strong>DESCRIPTION:</strong> Flight Systems Engineer during design, build, test and operations of an X-ray Telescope. Quasi-resident at Spacecraft contractor in Washington DC for 3.5 years.  Lead engineer for mission critical event, mast deployment - a 30 foot boom deployed on orbit to achieve the telescope\'s focal length. <a href="http://www.nustar.caltech.edu/">NuSTAR website</a>',
+		description: '<strong>ROLE:</strong> Flight Systems Engineer </BR><strong>DESCRIPTION:</strong> Flight Systems Engineer during design, build, test, and operations of the NuSTAR High Energy X-ray Telescope. Quasi-resident at Spacecraft contractor in Washington DC for 3.5 years. Lead engineer for mission critical event, mast deployment - a 30 foot boom deployed on orbit to achieve the telescope\'s focal length.<BR><strong>WEBSITE:</strong> <a href="http://www.nustar.caltech.edu/">http://www.nustar.caltech.edu/</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_nustar/nustar_orbit1.jpg',
-			'jpl_nustar/nustar_mockup.jpg',
 			'jpl_nustar/nus_2.jpg',
 			'jpl_nustar/nustar_instTvac.jpg',
 			'jpl_nustar/nustar_inspection.jpg',
@@ -22,7 +21,6 @@ var jb_olio = [
 		filters: ['flight'],
 		more: [
 			'jpl_phx/phx_1.jpg',
-			'jpl_phx/phx_2.jpg',
 			'jpl_phx/phx_3.jpg',
 			'jpl_phx/phx_4.jpg'
 		]
@@ -31,7 +29,7 @@ var jb_olio = [
 	{
 		featured: 'jpl_mer/mer_thumb1.jpg',
 		title: 'Mars Exploration Rovers',
-		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. -->  Managed daily operations. <BR><strong>WEBSITE:</strong><a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
+		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. --> Managed daily operations. <BR><strong>WEBSITE:</strong><a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_mer/under-construction.jpg'
@@ -42,7 +40,7 @@ var jb_olio = [
 	{
 		featured: 'rails_demo/rails_demo_thumb.jpg',
 		title: 'Ruby On Rails Microblog',
-		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> My first Ruby on Rails project from the Ruby on Rails Tutorial & Sample App. Emphasis of the project is not UI, but learning the RoR fundamentals - most of which are transparent to the common site visitor.<BR><strong>WEBSITE:</strong> <a href="http://blooming-mountain-199.heroku.com/">http://blooming-mountain-199.heroku.com/</a>',
+		description: '<strong>DESCRIPTION: </strong> My first Ruby on Rails project from the Ruby on Rails Tutorial & Sample App. Emphasis of the project is not UI, but learning the RoR fundamentals - most of which are transparent to the common site visitor.<BR><strong>WEBSITE:</strong> <a href="http://blooming-mountain-199.heroku.com/">http://blooming-mountain-199.heroku.com/</a>',
 		filters: ['web','app'],
 		more: [
 			'rails_demo/Slide1.jpg',
@@ -54,7 +52,7 @@ var jb_olio = [
 		{
 		featured: 'musicbachs/musicbachs_thumb.jpg',
 		title: 'MusicBachs',
-		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
+		description: '<strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
 		filters: ['web','app'],
 		more: [
 			'musicbachs/Slide05.jpg',	
@@ -66,7 +64,7 @@ var jb_olio = [
 	{
 		featured: 'autowin/autowin_thumb.jpg',
 		title: 'AutoWin',
-		description: '<strong>ROLE: </strong>Mission Planning Team Lead</br> <strong>DESCRIPTION: </strong> Learned perl and automated a 2FTE job into 4hrs a week task.  Code used to aid scheduling and building flight products for over 7 years.',
+		description: '<strong>ROLE: </strong>MER Mission Planning Team Lead</br> <strong>DESCRIPTION: </strong> Self-taught perl and automated a 2FTE job into 4hrs a week task.  Code used to aid scheduling and building flight products for over 7 years now.',
 		filters: ['web','app'],
 		more: [
 			'autowin/Slide10.jpg',	
@@ -76,32 +74,30 @@ var jb_olio = [
 		]
 	},
 	{
-		featured: 'vida/misc_surf_thumb1.jpg',
-		title: 'Water',
-		description: '<strong>DESCRIPTION:</strong>Surfing, Fishing, Rafting',
-		filters: ['vida'],
-		more: [
-			'vida/mexico_surf.jpg',	
-			'vida/leisure_dive.jpg',	
-			'vida/rafting.jpg',	
-			'vida/ut_fishing1.jpg',	
-			'vida/surfboard.jpg'	
-		]
-	},
-	{
 		featured: 'vida/mtn_thumb.jpg',
 		title: 'Land',
 		description: '<strong>DESCRIPTION:</strong>Skiing, Biking, Golf, Running, Backpacking',
 		filters: ['vida'],
 		more: [
-			'vida/mt_whitney.jpg',	
 			'vida/nyc_race_for_cure.jpg',	
+			'vida/mt_whitney.jpg',	
 			'vida/ptDume_climbing.jpg',	
 			'vida/boys_golf_az.jpg',	
 			'vida/skiing1.jpg',	
 			'vida/skiing2.jpg'	
 		]
 
+	},
+	{
+		featured: 'vida/surf_thumb.jpg',
+		title: 'Water',
+		description: '<strong>DESCRIPTION:</strong>Surfing, Fishing, Rafting',
+		filters: ['vida'],
+		more: [
+			'vida/mexico_surf.jpg',	
+			'vida/rafting.jpg',	
+			'vida/ut_fishing1.jpg'	
+		]
 	},
 	{
 		featured: 'frpf/frpf_thumb.jpg',
@@ -125,18 +121,18 @@ var jb_olio = [
 		]
 	},	
 	{
-		featured: 'jpl_mer/under-construction-300x200.png',
-		title: 'Fantasy Football',
-		description: '<strong>ROLE: </strong>Hacker</br> <strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.',
+		featured: 'ffball_app/ffball_thumb.jpg',
+		title: 'Fantasy Football App',
+		description: '<strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.',
 		filters: ['web','app'],
 		more: [
 			'jpl_mer/under-construction.jpg'	
 		]
 	},
 	{
-		featured: 'jpl_mer/coming_soon_thumb.png',
+		featured: 'app_echonest/sm_plst_app_thumb.jpg',
 		title: 'Playlist Generator',
-		description: '<strong>ROLE:</strong> Hacker </BR><strong>DESCRIPTION:</strong> <i>In work.  Creating an app using Echos Nest and Spotify API.  End result will be an app to generate playlists based on mood.<BR><strong>WEBSITE:</strong> <a href="#">in work</a></i>',
+		description: '<strong>DESCRIPTION:</strong> <i>In work.  Creating an app using Echos Nest and Spotify API.  End result will be an app to generate playlists based on mood.</i><BR><strong>WEBSITE:</strong> <a href="#">in work</a>',
 		filters: ['app'],
 		more: [
 			'jpl_mer/under-construction.jpg'	

@@ -240,7 +240,7 @@ dl.toggle dd { border-left: outset 5px; margin: 0px; padding-left: 1em; }
 #container.portfolio.III .entry { width: 299px !iefix; }
 #container.portfolio.III .entry p { padding: 20px; }
 #container.portfolio.III .entry p.links { padding: 0px 20px; position: absolute; bottom: 0px; z-index: 1; }
-#container.portfolio.III .entry img { position: absolute; width: 300px; height: 200px; z-index: 2; }
+#container.portfolio.III .entry img { position: absolute; width: 300px; height: 200px; z-index: 2;  }
 #container.portfolio.III .entry:hover img { opacity: 0.03; filter: alpha(opacity = 3); z-index: 0; }
 #container.portfolio.III .entry:hover p.links { z-index: 2 !iefix; }
 
@@ -267,7 +267,7 @@ dl.toggle dd { border-left: outset 5px; margin: 0px; padding-left: 1em; }
 	
 }
 
-#container.portfolio.V .entry img { margin-bottom: 0.5em;}
+#container.portfolio.V .entry img { margin-bottom: 0.5em; padding:1px; border:1px solid #021a40;}
 /*
 #container.portfolio.V .entry a .overlay { background: url(img/img_overlay.png); display: none; position: absolute; width: 300px; z-index: 10; }
 */
