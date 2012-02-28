@@ -2,7 +2,7 @@ var jb_olio = [
 	{
 		featured: 'jpl_nustar/nustar_orbit_thumb.jpg',
 		title: 'NuSTAR X-Ray Telescope',
-		description: '<strong>ROLE:</strong> Flight Systems Engineer </BR><strong>DESCRIPTION:</strong> Flight Systems Engineer during design, build, test, and operations of the NuSTAR High Energy X-ray Telescope. Quasi-resident at Spacecraft contractor in Washington DC for 3.5 years. Lead engineer for mission critical event, mast deployment - a 30 foot boom deployed on orbit to achieve the telescope\'s focal length.<BR><strong>WEBSITE:</strong> <a href="http://www.nustar.caltech.edu/">http://www.nustar.caltech.edu/</a>',
+		description: '<strong>ROLE:</strong> Flight Systems Engineer </BR><strong>DESCRIPTION:</strong> Flight Systems Engineer during design, build, test, and operations of the NuSTAR High Energy X-ray Telescope. Quasi-resident at Spacecraft contractor in Washington DC for 3.5 years. Lead engineer for mission critical event, mast deployment - a 30 foot boom deployed on orbit to achieve the telescope\'s focal length.<BR>Images: 1) Artist rendition of deployed mast, credit NASA/JPL. 2) Instrument electrical integration pre TVAC test 3) JPL TVAC Test. 4) Bus closeout inspection. 5) Mast deploy ground test. 6) Pegasus Rocket Integration.<br><strong>WEBSITE:</strong> <a href="http://www.nustar.caltech.edu/">http://www.nustar.caltech.edu/</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_nustar/nustar_orbit1.jpg',
@@ -17,22 +17,24 @@ var jb_olio = [
 	{
 		featured: 'jpl_phx/phx_thumb2.jpg',
 		title: 'Phoenix Mars Lander',
-		description: '<strong>ROLE:</strong> Systems Engineer </BR><strong>DESCRIPTION:</strong> Surface systems team, etc, etc, etc. My <a href="http://phoenixintucson.blogspot.com/">personal account of working surface operations and living o Mars time.</a><BR><strong>WEBSITE:</strong><a href="http://phoenix.lpl.arizona.edu/index.php">http://phoenix.lpl.arizona.edu/index.php</a>',
+		description: '<strong>ROLE:</strong> Systems Engineer </BR><strong>DESCRIPTION:</strong> Member of the surface systems engineering team tasked with designing and implementing the surface operations phase of the Phoenix mission.  Developed a tactical operations process and trained the science team and payload engineers from around the world.  Worked Mars Time in support of surface operations for 90 sols (like traveling 1 time zone West every day). <br>Images: 1) Developing sample transfer techniques in the testbed. 2) Sol 12 TEGA sample. 3) Sol 119 Clouds on Mars. Credit 2 & 3 to NASA/JPL.<br> <strong>PHOENIX BLOG:</strong> <a href="http://phoenixintucson.blogspot.com/"> My personal account</a> of working surface operations and living on Mars time. <BR><strong>WEBSITE:</strong><a href="http://phoenix.lpl.arizona.edu/index.php">http://phoenix.lpl.arizona.edu/index.php</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_phx/phx_1.jpg',
 			'jpl_phx/phx_3.jpg',
-			'jpl_phx/phx_4.jpg'
+			'jpl_phx/phx_sol_119_clouds.gif'
 		]
 
 	},
 	{
 		featured: 'jpl_mer/mer_thumb1.jpg',
 		title: 'Mars Exploration Rovers',
-		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. --> Managed daily operations. <BR><strong>WEBSITE:</strong><a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
+		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. --> Managed daily operations. <BR>Images: 1) MERB Sol 94 Endurance Crater approach, 2) MER-A Sol 675 Phobos lunar eclips, 3) MERB Sol 917 hazcam. Photos credit NASA/JPL.<br><strong>WEBSITE:</strong><a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
 		filters: ['flight'],
 		more: [
-			'jpl_mer/under-construction.jpg'
+			'jpl_mer/bsol94_Endurance.jpg',
+			'jpl_mer/a675_Phobos_ingress_v2.gif',
+			'jpl_mer/bsol917_fhaz.jpg'
 
 		]
 
@@ -76,14 +78,14 @@ var jb_olio = [
 	{
 		featured: 'vida/mtn_thumb.jpg',
 		title: 'Land',
-		description: '<strong>DESCRIPTION:</strong>Skiing, Biking, Golf, Running, Backpacking',
+		description: '<strong>DESCRIPTION:</strong>Running, Climbing, Golf, Skiing, Backpacking, Biking',
 		filters: ['vida'],
 		more: [
 			'vida/nyc_race_for_cure.jpg',	
 			'vida/mt_whitney.jpg',	
 			'vida/ptDume_climbing.jpg',	
 			'vida/boys_golf_az.jpg',	
-			'vida/skiing1.jpg',	
+			'vida/skiing_1.jpg',	
 			'vida/skiing2.jpg'	
 		]
 
@@ -91,11 +93,11 @@ var jb_olio = [
 	{
 		featured: 'vida/surf_thumb.jpg',
 		title: 'Water',
-		description: '<strong>DESCRIPTION:</strong>Surfing, Fishing, Rafting',
+		description: '<strong>DESCRIPTION:</strong>Surfing, Rafting, Fishing <br>Surf and Raft Photos by Casey Day.',
 		filters: ['vida'],
 		more: [
-			'vida/mexico_surf.jpg',	
-			'vida/rafting.jpg',	
+			'vida/mexico_surf1.jpg',	
+			'vida/grand_canyon1.jpg',	
 			'vida/ut_fishing1.jpg'	
 		]
 	},
@@ -112,25 +114,25 @@ var jb_olio = [
 
 	},
 	{
-		featured: 'jpl_mer/under-construction-300x200.png',
-		title: 'MOG - Music on Demand',
-		description: '<strong>ROLE:</strong> Consultant </BR><strong>DESCRIPTION:</strong> fill this in later<BR><strong>WEBSITE:</strong> <a href="#">#</a>',
+		featured: 'this_site/Slide06_thumb.jpg',
+		title: 'This Website',
+		description: '<strong>DESCRIPTION:</strong> Hosted by Heroku and using the ruby on rails framework.  I\'ve adapted a series of jquery and js code to yield the interactive image viewing.  I\'m not much for front-end web design, so special thanks to J. Berg for helping me with the template.<BR><strong>WEBSITE:</strong> <a href="#">#</a>',
 		filters: ['app'],
 		more: [
-			'jpl_mer/under-construction.jpg'	
+			'this_site/Slide06.jpg'	
 		]
 	},	
 	{
-		featured: 'ffball_app/ffball_thumb.jpg',
+		featured: 'app_ffball/ffball_app_thumb.jpg',
 		title: 'Fantasy Football App',
-		description: '<strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.',
+		description: '<strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.  Can track lifetime head to head matchup results.',
 		filters: ['web','app'],
 		more: [
-			'jpl_mer/under-construction.jpg'	
+			'app_ffball/ffball_home.jpg'	
 		]
 	},
 	{
-		featured: 'app_echonest/sm_plst_app_thumb.jpg',
+		featured: 'app_echonest/app_echonest_thumb.jpg',
 		title: 'Playlist Generator',
 		description: '<strong>DESCRIPTION:</strong> <i>In work.  Creating an app using Echos Nest and Spotify API.  End result will be an app to generate playlists based on mood.</i><BR><strong>WEBSITE:</strong> <a href="#">in work</a>',
 		filters: ['app'],
