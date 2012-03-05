@@ -102,7 +102,7 @@ var jb_olio = [
 		]
 	},
 	{
-		featured: 'frpf/frpf_thumb.jpg',
+		featured: 'frpf/calendar_2012_thumb.jpg',
 		title: 'Front Range Powder Factory',
 		description: '<strong>ROLE:</strong> Co-Founder & Board Member </BR><strong>DESCRIPTION:</strong> After experiencing the loss of someone so close, I became committed to raising awareness for suicide prevention. I\'m in charge of West coast fundraising and social media for the organization.<BR><strong>WEBSITE:</strong> <a href="http://www.powderfactory.com/">http://www.powderfactory.com/</a> and on <a href="http://www.facebook.com/powderfactory">Facebook</a>',
 		filters: ['service', 'vida'],
