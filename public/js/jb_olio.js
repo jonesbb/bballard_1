@@ -29,7 +29,7 @@ var jb_olio = [
 	{
 		featured: 'jpl_mer/mer_thumb1.jpg',
 		title: 'Mars Exploration Rovers',
-		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led daily team creating commands to drive and capture science. --> Managed daily operations. <BR>Images: 1) MERB Sol 94 Endurance Crater approach, 2) MER-A Sol 675 Phobos lunar eclips, 3) MERB Sol 917 hazcam. Photos credit NASA/JPL.<br><strong>WEBSITE:</strong><a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
+		description: '<strong>ROLE:</strong> Mission Manager, Systems Engineer </BR><strong>DESCRIPTION:</strong> Spent over 4 years as a systems engineering hatchet man. Initially, I built software to create flight commands to tell rovers when and how to communicate with Earth and Mars-orbiting satellites. --> Reviewed received data from Mars, troubleshooting anomalies. --> Led team creating commands to drive and capture science. --> Managed daily operations. <BR>Images: 1) MERB Sol 94 Endurance Crater approach, 2) MER-A Sol 675 Phobos lunar eclips, 3) MERB Sol 917 hazcam. Photos credit NASA/JPL.<br><strong>WEBSITE:</strong><a href="http://marsrover.nasa.gov/home/index.html">http://marsrover.nasa.gov/home/index.html</a>',
 		filters: ['flight'],
 		more: [
 			'jpl_mer/bsol94_Endurance.jpg',
@@ -81,7 +81,7 @@ var jb_olio = [
 		description: '<strong>DESCRIPTION:</strong>Running, Climbing, Golf, Skiing, Backpacking, Biking',
 		filters: ['vida'],
 		more: [
-			'vida/nyc_race_for_cure.jpg',	
+			'vida/nyc_komen_2012.jpg',	
 			'vida/mt_whitney.jpg',	
 			'vida/ptDume_climbing.jpg',	
 			'vida/boys_golf_az.jpg',	
@@ -104,7 +104,7 @@ var jb_olio = [
 	{
 		featured: 'frpf/calendar_2012_thumb.jpg',
 		title: 'Front Range Powder Factory',
-		description: '<strong>ROLE:</strong> Co-Founder & Board Member </BR><strong>DESCRIPTION:</strong> After experiencing the loss of someone so close, I became committed to raising awareness for suicide prevention. I\'m in charge of West coast fundraising and social media for the organization.<BR><strong>WEBSITE:</strong> <a href="http://www.powderfactory.com/">http://www.powderfactory.com/</a> and on <a href="http://www.facebook.com/powderfactory">Facebook</a>',
+		description: '<strong>ROLE:</strong> Co-Founder & Board Member </BR><strong>DESCRIPTION:</strong> After experiencing the loss of someone close, I became committed to raising awareness for suicide prevention. I\'m in charge of West coast fundraising and social media for the organization.<BR><strong>WEBSITE:</strong> <a href="http://www.powderfactory.com/">http://www.powderfactory.com/</a> and on <a href="http://www.facebook.com/powderfactory">Facebook</a>',
 		filters: ['service', 'vida'],
 		more: [
 			'frpf/frpf_mission.jpg'
