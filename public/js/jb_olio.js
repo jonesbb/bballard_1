@@ -93,7 +93,7 @@ var jb_olio = [
 	{
 		featured: 'vida/surf_thumb.jpg',
 		title: 'Water',
-		description: '<strong>DESCRIPTION:</strong>Surfing, Rafting, Fishing <br>Surf and Raft Photos by Casey Day.',
+		description: '<strong>DESCRIPTION:</strong>Surfing, Rafting, Fishing',
 		filters: ['vida'],
 		more: [
 			'vida/mexico_surf1.jpg',	
@@ -104,12 +104,10 @@ var jb_olio = [
 	{
 		featured: 'frpf/frpf_thumb.jpg',
 		title: 'Front Range Powder Factory',
-		description: '<strong>ROLE:</strong> Co-Founder & Board Member </BR><strong>DESCRIPTION:</strong> fill this in later<BR><strong>WEBSITE:</strong> <a href="http://www.powderfactory.com/">http://www.powderfactory.com/</a> and on <a href="http://www.facebook.com/powderfactory">Facebook</a>',
+		description: '<strong>ROLE:</strong> Co-Founder & Board Member </BR><strong>DESCRIPTION:</strong> After experiencing the loss of someone so close, I became committed to raising awareness for suicide prevention. I\'m in charge of West coast fundraising and social media for the organization.<BR><strong>WEBSITE:</strong> <a href="http://www.powderfactory.com/">http://www.powderfactory.com/</a> and on <a href="http://www.facebook.com/powderfactory">Facebook</a>',
 		filters: ['service', 'vida'],
 		more: [
-			'frpf/calendar.2012.small.jpg',
-			'frpf/hut.group.2005.jpg',
-			'frpf/frpf_story.jpg'
+			'frpf/frpf_mission.jpg'
 		]
 
 	},
