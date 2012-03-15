@@ -64,15 +64,12 @@ var jb_olio = [
 
 	},
 	{
-		featured: 'autowin/autowin_thumb.jpg',
-		title: 'AutoWin',
-		description: '<strong>ROLE: </strong>MER Mission Planning Team Lead</br> <strong>DESCRIPTION: </strong> Self-taught perl and automated a 2FTE job into 4hrs a week task.  Code used to aid scheduling and building flight products for over 7 years now.',
+		featured: 'twilio_tides/tides_thumb.jpg',
+		title: 'Twilio Tides',
+		description: '<strong>DESCRIPTION: </strong> A Twilio app using ruby, sinatra and heroku that enables a caller to check the high and low tide times in Santa Monica for the day of the call.<br> <a href="http://hacking-idiot.blogspot.com/2012/03/how-to-make-twilio-voice-app-hosted-by.html">Description of how I built it.</a><br><strong>WEBSITE: </strong> <a href="http://sharp-stream-4312.heroku.com">http://sharp-stream-4312.heroku.com</a>',
 		filters: ['web','app'],
 		more: [
-			'autowin/Slide10.jpg',	
-			'autowin/Slide11.jpg',	
-			'autowin/autowin_gui.jpg',	
-			'autowin/rover_detail.jpg'	
+			'twilio_tides/twilio_tides_full.jpg'	
 		]
 	},
 	{
@@ -112,14 +109,17 @@ var jb_olio = [
 
 	},
 	{
-		featured: 'this_site/Slide06_thumb.jpg',
-		title: 'This Website',
-		description: '<strong>DESCRIPTION:</strong> Hosted by Heroku and using the ruby on rails framework.  I\'ve adapted a series of jquery and js code to yield the interactive image viewing.  I\'m not much for front-end web design, so special thanks to J. Berg for helping me with the template.<BR><strong>WEBSITE:</strong> <a href="#">#</a>',
-		filters: ['app'],
+		featured: 'autowin/autowin_thumb.jpg',
+		title: 'AutoWin',
+		description: '<strong>ROLE: </strong>MER Mission Planning Team Lead</br> <strong>DESCRIPTION: </strong> Self-taught perl and automated a 2FTE job into 4hrs a week task.  Code used to aid scheduling and building flight products for over 7 years now.',
+		filters: ['web','app'],
 		more: [
-			'this_site/Slide06.jpg'	
+			'autowin/Slide10.jpg',	
+			'autowin/Slide11.jpg',	
+			'autowin/autowin_gui.jpg',	
+			'autowin/rover_detail.jpg'	
 		]
-	},	
+	},
 	{
 		featured: 'app_ffball/ffball_app_thumb.jpg',
 		title: 'Fantasy Football App',
@@ -130,13 +130,23 @@ var jb_olio = [
 		]
 	},
 	{
-		featured: 'app_echonest/app_echonest_thumb.jpg',
-		title: 'Playlist Generator',
-		description: '<strong>DESCRIPTION:</strong> <i>In work.  Creating an app using Echos Nest and Spotify API.  End result will be an app to generate playlists based on mood.</i><BR><strong>WEBSITE:</strong> <a href="#">in work</a>',
+		featured: 'this_site/Slide06_thumb.jpg',
+		title: 'This Website',
+		description: '<strong>DESCRIPTION:</strong> Hosted by Heroku and using the ruby on rails framework.  I\'ve adapted a series of jquery and js code to yield the interactive image viewing.  I\'m not much for front-end web design, so special thanks to J. Berg for helping me with the template.<BR><strong>WEBSITE:</strong> <a href="#">#</a>',
 		filters: ['app'],
 		more: [
-			'jpl_mer/under-construction.jpg'	
+			'this_site/Slide06.jpg'	
 		]
+	},	
+//	{
+//		featured: 'app_echonest/app_echonest_thumb.jpg',
+//		title: 'Playlist Generator',
+//		description: '<strong>DESCRIPTION:</strong> <i>In work.  Creating an app using Echos Nest and Spotify API.  End result will be an app to generate playlists based on mood.</i><BR><strong>WEBSITE:</strong> <a href="#">in work</a>',
+//		filters: ['app'],
+//		more: [
+//			'jpl_mer/under-construction.jpg'	
+//		]
+//
+//	},
 
-	},
 ];
