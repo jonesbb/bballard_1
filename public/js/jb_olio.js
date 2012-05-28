@@ -120,16 +120,25 @@ var jb_olio = [
 			'autowin/rover_detail.jpg'	
 		]
 	},
+//	{
+//		featured: 'app_ffball/ffball_app_thumb.jpg',
+//		title: 'Fantasy Football App',
+//		description: '<strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.  Can track lifetime head to head matchup results.',
+//		filters: ['web','app'],
+//		more: [
+//			'app_ffball/ffball_home.jpg'	
+//		]
+//	},
 	{
-		featured: 'app_ffball/ffball_app_thumb.jpg',
-		title: 'Fantasy Football App',
-		description: '<strong>DESCRIPTION: </strong> Ruby code project.  Crawled my fantasy football league\'s stats to begin a db tracking the history of head-to-head matchups and emailing a weekly results during the season.  Can track lifetime head to head matchup results.',
+		featured: 'stripe_mars/stripe_thumb.jpg',
+		title: 'Stripe Payment API Demo',
+		description: '<strong>DESCRIPTION: </strong> Stripe Payment Demo using their Ruby API to accept credit card payments for purchasing Mars Rocks. <br><strong>WEBSITE: </strong> <a href="http://growing-dusk-7109.heroku.com/">http://growing-dusk-7109.heroku.com/</a>',
 		filters: ['web','app'],
 		more: [
-			'app_ffball/ffball_home.jpg'	
+			'stripe_mars/stripe_mars.jpg'	
 		]
 	},
-	{
+    {
 		featured: 'this_site/Slide06_thumb.jpg',
 		title: 'This Website',
 		description: '<strong>DESCRIPTION:</strong> Hosted by Heroku and using the ruby on rails framework.  I\'ve adapted a series of jquery and js code to yield the interactive image viewing.  I\'m not much for front-end web design, so special thanks to J. Berg for helping me with the template.<BR><strong>WEBSITE:</strong> <a href="#">#</a>',
