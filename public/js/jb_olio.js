@@ -51,17 +51,14 @@ var jb_olio = [
 		]
 
 	},
-		{
-		featured: 'musicbachs/musicbachs_thumb.jpg',
-		title: 'MusicBachs',
-		description: '<strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
+	{
+		featured: 'stripe_mars/stripe_thumb.jpg',
+		title: 'Stripe Payment API Demo',
+		description: '<strong>DESCRIPTION: </strong> Stripe Payment Demo using their Ruby API to accept credit card payments for purchasing Mars Rocks. <br><strong>WEBSITE: </strong> <a href="http://growing-dusk-7109.heroku.com/">http://growing-dusk-7109.heroku.com/</a>',
 		filters: ['web','app'],
 		more: [
-			'musicbachs/Slide05.jpg',	
-			'musicbachs/Slide06.jpg',	
-			'musicbachs/Slide07.jpg'	
+			'stripe_mars/stripe_mars.jpg'	
 		]
-
 	},
 	{
 		featured: 'twilio_tides/tides_thumb.jpg',
@@ -130,15 +127,18 @@ var jb_olio = [
 //		]
 //	},
 	{
-		featured: 'stripe_mars/stripe_thumb.jpg',
-		title: 'Stripe Payment API Demo',
-		description: '<strong>DESCRIPTION: </strong> Stripe Payment Demo using their Ruby API to accept credit card payments for purchasing Mars Rocks. <br><strong>WEBSITE: </strong> <a href="http://growing-dusk-7109.heroku.com/">http://growing-dusk-7109.heroku.com/</a>',
+		featured: 'musicbachs/musicbachs_thumb.jpg',
+		title: 'MusicBachs',
+		description: '<strong>DESCRIPTION: </strong> RoR application using Spotify API.<BR><strong>WEBSITE:</strong><a href="http://growing-spring-2772.heroku.com/">http://growing-spring-2772.heroku.com/</a>',
 		filters: ['web','app'],
 		more: [
-			'stripe_mars/stripe_mars.jpg'	
+			'musicbachs/Slide05.jpg',	
+			'musicbachs/Slide06.jpg',	
+			'musicbachs/Slide07.jpg'	
 		]
+
 	},
-    {
+	{
 		featured: 'this_site/Slide06_thumb.jpg',
 		title: 'This Website',
 		description: '<strong>DESCRIPTION:</strong> Hosted by Heroku and using the ruby on rails framework.  I\'ve adapted a series of jquery and js code to yield the interactive image viewing.  I\'m not much for front-end web design, so special thanks to J. Berg for helping me with the template.<BR><strong>WEBSITE:</strong> <a href="#">#</a>',
