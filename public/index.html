@@ -201,6 +201,12 @@
 		
 			$('#proj_nav_0').click(); // select the first from the image nav menu
 			$('.proj_detail').fadeIn();
+			
+			//mixpanel track click of projects
+			//var mix_href = $('#proj_nav_0').click();
+			//alert(mix_href)
+			//mixpanel.track_links("#proj_nav_0 a:jb_home", "Clicked project link");
+			
 		    });
 
 
@@ -213,16 +219,24 @@
 			$('.proj_large div.proj_media')
 				.fadeOut(400,function(){
 					$(this).css('background','url(img/jb_olio/'+proj_img+') no-repeat 50% 50%')
-})
+				})
 				.fadeIn();
+
 		    });
 		    
 		    $('.proj_media').live('click',function(){
+
+
+			
 			if($('.proj_nav_current').next().length == 0) {
 				$('#proj_nav_0').click(); // select the first from the image nav menu
+
 			}else{
 				$('.proj_nav_current').next().click();
 			}
+			
+
+
 		    });
 		    
 		      // switches selected class on buttons
