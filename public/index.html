@@ -183,8 +183,9 @@
 			var ptitle = jb_olio[pid]['title'];
 			var pdesc = jb_olio[pid]['description'];
 			var pmore = jb_olio[pid]['more'];
-			 
-			
+			console.log("Clicked on project:" + ptitle);
+			mixpanel.track("Project Viewed", {"Project Name": ptitle} );
+
 			$('.proj_detail').html('');
 			$('.proj_detail').append('<h5>'+ptitle+'</h5>');	
 			$('.proj_detail').append('<a href="#top" class="proj_close"></a>');	
@@ -287,7 +288,9 @@ mixpanel.init("54c601ad86ce4b62dcbce566a1c89bee");</script>
 					<li><a href="http://www.linkedin.com/in/byronballard" target="_blank">LinkedIn</a></li>
 					<li><a href="http://hacking-idiot.blogspot.com/" target="_blank">Blog</a></li>
 				</ul>
-			  
+
+
+
               </div>
             <div id="main">
 		<div id="head">
@@ -332,45 +335,48 @@ mixpanel.init("54c601ad86ce4b62dcbce566a1c89bee");</script>
 	</div>
 	<!-- /main -->
 
-	<div id="foot" class="container_12">
+
+
+
+	<div id="foot" class="container_12" title="nustarNews">
 
 		<div class="grid_4">
 			<h2>NuSTAR Headlines</h2>
 			<ul>
-			<li>
-				<div class="date">
-				<span class="dateNum"><img src="uploads/images/site/calendar/day-28.jpg" alt="28" /></span><span 
-			    class="dateMonth"><img src="uploads/images/site/calendar/mon-JUN.jpg" alt="JUN" /></span>
-			  </div>
-			  <div class="text">
-			 <span class="newsSumTitle"><a href="http://www.nasa.gov/mission_pages/nustar/news/nustar20120628.html" target="_blank">NuSTAR Opens Its X-Ray Eyes</a></span><br />
-			    <span class="newsSumDesc">NuSTAR has snapped the first focused images of the high-energy X-ray universe.</span>
-			  </div>
-			</li>
-			
-			
-			<li>
-				<div class="date">
-				<span class="dateNum"><img src="uploads/images/site/calendar/day-21.jpg" alt="21" /></span><span 
-			    class="dateMonth"><img src="uploads/images/site/calendar/mon-JUN.jpg" alt="JUN" /></span>
-			  </div>
-			  <div class="text">
-			 <span class="newsSumTitle"><a href="http://www.jpl.nasa.gov/news/news.cfm?release=2012-183" target="_blank">NuSTAR Observatory Unfurls its Unique Mast</a></span><br />
-			    <span class="newsSumDesc">NuSTAR has successfully deployed its lengthy mast, giving it the ability to see the highest energy X-rays in our universe.</span>
-			  </div>
-			</li>
-			
-			
-			<li>
-				<div class="date">
-				<span class="dateNum"><img src="uploads/images/site/calendar/day-13.jpg" alt="13" /></span><span 
-			    class="dateMonth"><img src="uploads/images/site/calendar/mon-JUN.jpg" alt="JUN" /></span>
-			  </div>
-			  <div class="text">
-			 <span class="newsSumTitle"><a href="http://www.nasa.gov/mission_pages/nustar/news/nustar20120613.html" target="_blank">NASA's NuSTAR Mission Lifts Off</a></span><br />
-			    <span class="newsSumDesc">NuSTAR launched into the morning skies over the central Pacific Ocean at 9 a.m. PDT, beginning its mission to unveil secrets of buried black holes and other exotic objects.</span>
-			  </div>
-			</li>
+<li>
+	<div class="date">
+  	<span class="dateNum"><img src="uploads/images/site/calendar/day-25.jpg" alt="25" /></span><span 
+    class="dateMonth"><img src="uploads/images/site/calendar/mon-SEP.jpg" alt="SEP" /></span>
+  </div>
+  <div class="text">
+ <span class="newsSumTitle"><a href="http://science.kqed.org/quest/video/black-holes-objects-of-attraction/" target="_blank">Black Holes: Objects of Attraction</a></span><br />
+    <span class="newsSumDesc">Watch KQED video about black holes starring the NuSTAR Principal Investigator and Instrument Manager.</span>
+  </div>
+</li>
+
+
+<li>
+	<div class="date">
+  	<span class="dateNum"><img src="uploads/images/site/calendar/day-21.jpg" alt="21" /></span><span 
+    class="dateMonth"><img src="uploads/images/site/calendar/mon-SEP.jpg" alt="SEP" /></span>
+  </div>
+  <div class="text">
+ <span class="newsSumTitle"><a href="http://www.nasa.gov/mission_pages/nustar/news/nustar20120920.html" target="_blank">Celebrating 100 Days in Orbit</a></span><br />
+    <span class="newsSumDesc">NASA's Nuclear Spectroscopic Telescope Array, or NuSTAR, celebrated 100 days in orbit on Sept. 21, 2012.</span>
+  </div>
+</li>
+
+
+<li>
+	<div class="date">
+  	<span class="dateNum"><img src="uploads/images/site/calendar/day-17.jpg" alt="17" /></span><span 
+    class="dateMonth"><img src="uploads/images/site/calendar/mon-SEP.jpg" alt="SEP" /></span>
+  </div>
+  <div class="text">
+ <span class="newsSumTitle"><a href="https://plus.google.com/events/c1uincich25eoos59e6hqddmj5c" target="_blank">NuSTAR Round Table Discussion on Google+</a></span><br />
+    <span class="newsSumDesc">NuSTAR scientists will be hosting a round table discussion on Google+ on Tuesday, September 25th at 6:30 PM PDT.</span>
+  </div>
+</li>
 			</ul>
 			
 			<!---<applet codebase="http://countdown.ksc.nasa.gov/elv/"--->
@@ -417,6 +423,19 @@ mixpanel.init("54c601ad86ce4b62dcbce566a1c89bee");</script>
     mixpanel.track("Index Page Loaded")
   </script>
 
+  <script type="text/javascript">
+  $('div#topmenu li a').click(function() {
+  	console.log('Social Link View' + this.text);
+  	mixpanel.track("Social Link View", {"Field Name": this.text} )
+  });
+  </script>
+
+  <script type="text/javascript">
+  $('div#mainmenu li a').click(function() {
+  	console.log('Menu Filtered' + this.text);
+  	mixpanel.track("Menu Filtered", {"SubMenu Name": this.text} )
+  });
+  </script>
 
 
 	<!-- /foot -->
